@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   StyleSheet,
   Text,
@@ -181,5 +182,13 @@ class MapMarker extends Component {
     );
   }
 }
+
+MapMarker.propTypes = {
+  mapPoints: PropTypes.array,
+  onPress: PropTypes.func,
+  feature: PropTypes.object,
+  clusters: PropTypes.object,
+  region: PropTypes.object,
+};
 
 export default MapMarker;
