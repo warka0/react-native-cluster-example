@@ -1,11 +1,11 @@
 {
-  "name": "reactnativecluster",
+  "name": "react-native-maps-cluster-example",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-native-scripts": "0.0.29",
-    "jest-expo": "^0.4.0",
-    "react-test-renderer": "16.0.0-alpha.6"
+    "react-native-scripts": "1.8.0",
+    "jest-expo": "23.0.0",
+    "react-test-renderer": "16.0.0"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -19,10 +19,9 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "bluebird": "^3.5.0",
-    "expo": "^16.0.0",
-    "react": "16.0.0-alpha.6",
-    "react-native": "^0.43.4",
-    "supercluster": "git://github.com/mapbox/supercluster.git"
+    "expo": "^23.0.4",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "supercluster": "^3.0.1"
   }
 }
