@@ -4,6 +4,6 @@ Simple Expo app to showcase markers clustering in React Native Maps using [super
 
 All your points must respect the GeoJSON requirements.
 
-Open te demo in Expo https://expo.io/@razor7/reactnativemapsclusterexample
+Open te demo App in Expo https://exp.host/@mgscreativa/reactnativemapsclusterexample
 
 ![gif for cluster](https://github.com/warka0/react-native-cluster-example/blob/master/cluster.gif)
