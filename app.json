@@ -1,5 +1,25 @@
 {
   "expo": {
-    "sdkVersion": "16.0.0"
+    "name": "React Native Maps Cluster Example",
+    "description": "App to showcase markers clustering in React Native Maps using supercluster library. Git repo here https://github.com/davidroman0O/react-native-cluster-example",
+    "slug": "reactnativemapsclusterexample",
+    "privacy": "public",
+    "sdkVersion": "23.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/app-icons/ios-app-icon.png",
+    "splash": {
+      "image": "./app/assets/splash/splash-screen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#f1471d"
+    },
+    "ios": {
+      "bundleIdentifier": "com.mgscreativa.reactnativemapsclusterexample",
+      "icon": "./app/assets/app-icons/ios-app-icon.png"
+    },
+    "android": {
+      "package": "com.mgscreativa.reactnativemapsclusterexample",
+      "icon": "./app/assets/app-icons/android-app-icon.png",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    }
   }
 }

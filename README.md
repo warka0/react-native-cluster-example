@@ -1,11 +1,9 @@
 # React Native Cluster Map
 
-You know the struggle?
+Simple Expo app to showcase markers clustering in React Native Maps using [supercluster](https://github.com/mapbox/supercluster) js library from [MapBox](https://www.mapbox.com/).
 
-It's a simple example of clusters for React Native.
+All your points must respect the GeoJSON requirements.
 
-It use supercluster from MapBox! That's all... :)
-
-All of your points must respect the geojson requirements.
+Open te demo App in Expo https://exp.host/@mgscreativa/reactnativemapsclusterexample
 
 ![gif for cluster](https://github.com/warka0/react-native-cluster-example/blob/master/cluster.gif)
